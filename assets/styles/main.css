@@ -170,3 +170,14 @@ nav ul li a{
 color: #fff;
 font-size: 40px;
 }
+.sub{
+  color: var(--jasmine);
+  padding-left: 0px;
+ text-transform: uppercase;
+ font-weight: bold;
+ padding-left: 60px;
+}
+.article .container{
+  display: flex;
+  flex-wrap: wrap;
+}
