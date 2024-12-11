@@ -181,3 +181,36 @@ font-size: 40px;
   display: flex;
   flex-wrap: wrap;
 }
+footer .about {
+  color: var(--white);
+}
+footer .about .logo {
+  margin-bottom: 20px;
+}
+footer .about p {
+  line-height: 1.5;
+}
+footer .links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+footer .links ul li a {
+  display: block;
+  padding: 10px 0;
+  color: var(--white);
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer .links h3 {
+  color: var(--jasmine);
+}
+.links ul li {
+  list-style: none;
+}
+.copy{
+  padding-top: 10vh;
+}
